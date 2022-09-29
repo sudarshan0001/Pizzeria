@@ -38,7 +38,7 @@ namespace Pizzeria.WebUI.Controllers
                     }
                     else if (user.Roles.Contains("User"))
                     {
-                        return RedirectToAction("Index", "Dashboard", new { area = "User" });
+                        return RedirectToAction("Index", "Home");
                     }
                 }
             }

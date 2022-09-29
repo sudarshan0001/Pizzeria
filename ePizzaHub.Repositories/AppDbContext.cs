@@ -37,6 +37,7 @@ namespace Pizzeria.Repositories
                // optionsBuilder.UseSqlServer(@"data source=.; initial catalog=PizzeriaSite;persist security info=True;user id=sa;password=Sudhu@123;");
             }
             base.OnConfiguring(optionsBuilder);
+
         }
     }
 }
